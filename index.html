@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog de HTML</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                <li><a class="dropdown-item" href="historia.html">Historia</a></li>
+                <li><a class="dropdown-item" href="funcionamiento.html">Funcionamiento</a></li>
+                <li><a class="dropdown-item" href="ventajas.html">Ventajas y Desventajas</a></li>
+                <li><a class="dropdown-item" href="elementos.html">Elementos</a></li>
+                <li><a class="dropdown-item" href="cssyjs.html">CSS y JS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="bg-image">
+      <div class="content">
+        <h1>Desde el inicio hasta el final de HTML</h1>
+        <h2>Bienvenidos a nuestro blog</h2>
+        <a href="https://www.youtube.com/watch?v=tu-video" class="btn btn-video" target="_blank">Ver Vídeo</a>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="funcionalidad.js"></script>
+  </body>
+</html>

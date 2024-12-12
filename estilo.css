@@ -1,0 +1,152 @@
+body, html { 
+  height: 100%;
+  margin: 0;
+  overflow: auto; /* Permitir desplazamiento */
+  background-image: url('./img/fondo3.gif'); /* Reemplaza con la ruta de tu GIF */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.container {
+  max-width: 600px; /* Ancho máximo para centrar el contenido */
+  margin: 0 auto; /* Centrar horizontalmente */
+  position: relative; /* Asegura que el contenido esté superpuesto */
+  z-index: 1; /* Asegura que el contenido esté por encima del fondo */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: transparent; /* Fondo blanco semitransparente */
+}
+
+.bg-image {
+  background-image: url('./img/fondo3.gif'); /* Reemplaza con la ruta de tu GIF */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(220, 165, 238);
+  text-shadow: 2px 2px 4px #d0cccc;
+  
+}
+
+.navbar {
+  background-color: transparent !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  padding: 1rem;
+}
+
+.navbar .nav-link {
+  color: rgb(54, 65, 195) !important;
+  font-size: 1.2em;
+  transition: text-shadow 0.3s;
+}
+
+.navbar .nav-link:hover {
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #c7c6ea, 0 0 30px #676db8;
+}
+
+.btn-primary {
+  background-color: #000000; /* Fondo negro */
+  border-color: #000000; /* Borde negro */
+}
+
+.btn-primary:hover {
+  background-color: #333333; /* Fondo negro más claro al pasar el ratón */
+  border-color: #333333; /* Borde negro más claro al pasar el ratón */
+}
+
+.btn-video {
+  background-color: #fcf9fe; /* Color morado más claro */
+  border-color: #fcf9fe; /* Borde morado más claro */
+  color: #ffffff; /* Texto blanco */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-video:hover {
+  background-color: #8a2be2; /* Morado más oscuro al pasar el ratón */
+  border-color: #8a2be2; /* Borde morado más oscuro al pasar el ratón */
+}
+
+.navbar .dropdown-menu {
+  background-color: #333333; /* Color de fondo de la caja del menú */
+  border: none; /* Elimina el borde */
+}
+
+.navbar .dropdown-item {
+  color: #ffffff; /* Color del texto de las opciones */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #747474; /* Color de fondo al pasar el ratón */
+  color: #cb57e8; /* Color del texto al pasar el ratón */
+}
+
+
+.info-box {
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo transparente */
+  border: 2px solid #98a0eb; /* Borde azul */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  max-width: 80%; /* Ancho máximo de la tabla */
+  margin: 0 auto; /* Centrar la tabla horizontalmente */
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo transparente */
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 20px 0; /* Espaciado vertical */
+  
+}
+
+.table th, .table td {
+  border: 2px solid #2a3cde; /* Borde azul */
+  padding: 10px;
+  width: 33.33%; /* Ancho proporcional para cada columna */
+  text-align: center; /* Centrar el texto en las celdas */
+}
+
+.table thead th {
+  background-color: rgba(152, 160, 235, 0.2); /* Fondo azul claro para encabezados */
+}
+
+.table th:first-child, .table td:first-child {
+  background-color: #8a2be2; /* Morado oscuro */
+  color: #ffffff; /* Texto blanco para contraste */
+}
+
+.table th:nth-child(2), .table td:nth-child(2) {
+  background-color: #b57edc; /* Morado medio */
+  color: #ffffff; /* Texto blanco para contraste */
+}
+
+.table th:nth-child(3), .table td:nth-child(3) {
+  background-color: #d8b4e2; /* Morado claro */
+  color: #000000; /* Texto negro para contraste */
+}
+
+.link-hover {
+  color: #98a0eb; /* Color inicial del enlace */
+  transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.link-hover:hover {
+  color: #681f74; /* Color del enlace al pasar el ratón */
+}
+
+
